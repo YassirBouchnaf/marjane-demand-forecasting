@@ -1,4 +1,4 @@
-# Journal des décisions, Prévision de la demande (Stage Marjane Taza)
+# Journal des décisions, Prévision de la demande (Stage Marjane Group)
 
 Chaque décision prise conjointement est enregistrée ici avec sa justification, pour garder une trace claire et pouvoir l'expliquer en soutenance.
 
@@ -79,4 +79,4 @@ Chaque décision prise conjointement est enregistrée ici avec sa justification,
 
 ---
 
-*Dernière mise à jour : à compléter au fur et à mesure des décisions suivantes.*
+
