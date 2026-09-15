@@ -43,16 +43,20 @@ No single model won everywhere - the final model is a **per-category hybrid**: X
 
 `Python` (pandas, XGBoost, scikit-learn-style validation) · `SQL` (SQLite) · `Power BI` (DAX, Power Query) · `Excel`
 
-## Repository structure
+### Repository structure
 
 ```
-consolidation.py         # Excel -> clean SQLite table
-exploration.py            # SQL diagnostics: seasonality, campaigns, stock-outs
-feature_engineering.py    # Weekly aggregation, lags, rolling averages, campaign flags
-modelisation.py           # Baseline, XGBoost grid search, hybrid model, MAPE evaluation
-dashboard prevision de la demande.pbix   # 4-page Power BI report
-decision_log.md            # Every modeling/business decision with its justification
-screenshots/                # PNG export of each dashboard page
+README.md
+decision_log.md
+.gitignore
+src/
+  consolidation.py         # Excel -> clean SQLite table
+  exploration.py            # SQL diagnostics: seasonality, campaigns, stock-outs
+  feature_engineering.py    # Weekly aggregation, lags, rolling averages, campaign flags
+  modelisation.py           # Baseline, XGBoost grid search, hybrid model, MAPE evaluation
+dashboard/
+  dashboard prevision de la demande.pbix   # 4-page Power BI report
+screenshots/                 # PNG export of each dashboard page
 ```
 
 Raw sales files, the SQLite database, and exported CSVs are excluded from version control (`.gitignore`) - they're either confidential retail data or fully regenerable by re-running the scripts in order.
